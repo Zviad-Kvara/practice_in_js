@@ -1,45 +1,52 @@
 //1.Write a program to print "Hello, World!" to the console.
-
 // console.log("Hello,World!");
+---------------------------------------------------------------------------------
 //2.Create a variable and assign a number to it. Print the value of the variable.
 // let myAge = 20;
-
 // console.log(myAge);
+---------------------------------------------------------------------------------    
 //3.Write a program to add two numbers and display the result.
 // let firstNumber = 1;
 // let secondNumber = 7;
 // console.log(firstNumber + secondNumber);
+---------------------------------------------------------------------------------
 //4.Write a program to subtract two numbers and display the result.
 // let number1 = 5;
 // let number2 = 4;
 // console.log(number1 + number2);
+---------------------------------------------------------------------------------
 //5.Write a program to multiply two numbers and display the result.
 // let number1 = 3;
 // let number2 = 7;
 // console.log(number1 * number2);
+---------------------------------------------------------------------------------
 //6.Write a program to divide two numbers and display the result.
 // let number1 = 20;
 // let number2 = 5;
 // console.log(number1 / number2);
+---------------------------------------------------------------------------------
 //7.Write a program to calculate the remainder of dividing two numbers.
 // let number1 = 20;
 // let number2 = 3;
 // console.log(number1 % number2);
+---------------------------------------------------------------------------------
 //8.Create a variable and assign a string to it. Print the length of the string.
 // let myName = "Zviad";
 // console.log(myName.length);
+---------------------------------------------------------------------------------
 //9.Write a program to concatenate two strings and display the result.
 // let myName = "Zviad ";
 // let mySurname = "Kvara";
 // console.log(myName + mySurname);
+---------------------------------------------------------------------------------
 //10.Write a program to convert a string to uppercase.
 // let myString = "hello";
 // console.log(myString.toUpperCase());
-
+---------------------------------------------------------------------------------
 //11Write a program to convert a string to lowercase.
 // let myString = "ZvIAD";
 // console.log(myString.toLowerCase());
-
+---------------------------------------------------------------------------------
 //12.Write a program to check if a number is even or odd.
 // function checkNum(num) {
 //   if (num % 2 == 0) {
@@ -51,6 +58,7 @@
 // console.log(checkNum(0));
 // console.log(checkNum(1));
 // console.log(checkNum(8));
+---------------------------------------------------------------------------------
 //13.Write a program to check if a number is positive, negative, or zero.
 // function checkNum(num) {
 //   if (num > 0) {
@@ -64,6 +72,7 @@
 // console.log(checkNum(-5));
 // console.log(checkNum(0));
 // console.log(checkNum(5));
+---------------------------------------------------------------------------------
 //14.Write a program to find the maximum of two numbers.
 // function maxNum(a, b) {
 //   if (a > b) {
@@ -77,7 +86,7 @@
 // console.log(maxNum(9, 8));
 // console.log(maxNum(4, 8));
 // console.log(maxNum(7, 7));
-
+---------------------------------------------------------------------------------
 //15.Write a program to find the minimum of two numbers.
 // function minNum(a, b) {
 //   if (a > b) {
@@ -95,7 +104,7 @@
 // function minNum(a, b) {
 //   return Math.min(a, b);
 // }
-
+---------------------------------------------------------------------------------
 //16.Write a program to check if a number is divisible by another number.
 // function checkDiv(a, b) {
 //   if (a % b === 0) {
@@ -106,7 +115,7 @@
 // }
 // console.log(checkDiv(8, 5));
 // console.log(checkDiv(8, 4));
-
+---------------------------------------------------------------------------------
 //17.Write a program to check if a string is empty or not.
 // function emptySting(string){
 //   if(string.length===0){
@@ -117,7 +126,7 @@
 // }
 // console.log(emptySting(""));
 // console.log(emptySting("hello"));
-
+---------------------------------------------------------------------------------
 //18.Write a program to check if a string contains a specific word.
 // function specString(string, subString) {
 //   if (string.includes(subString)) {
@@ -128,7 +137,7 @@
 // }
 // console.log(specString("hello", "ll"));
 // console.log(specString("hello", "World"));
-
+---------------------------------------------------------------------------------
 // 19.Write a program to find the factorial of a number.
 // 4 factorial is 4*3*2*1=24
 // function factorialNum(number) {
@@ -139,7 +148,7 @@
 //   return result;
 // }
 // console.log(factorialNum(3));
-
+---------------------------------------------------------------------------------
 //20.Write a program to check if a number is prime or not.
 // 1,2,3,5,7,9,11,13,17...
 
@@ -158,14 +167,14 @@
 //   console.log(prime(10));
 //   console.log(prime(3));
 //   console.log(prime(4));
-
+---------------------------------------------------------------------------------
 // 21.დაწერეთ პროგრამა სტრიქონის შებრუნებისთვის.
 // Write a program to reverse a string.
 
 // let str = "Hello";
 // let output = str.split("").reverse().join("");
 // console.log(output);
-
+---------------------------------------------------------------------------------
 //22.დაწერეთ პროგრამა, რომ იპოვოთ მასივის ყველა რიცხვის ჯამი.
 // Write a program to find the sum of all numbers in an array.
 // function sumArr(arr){
